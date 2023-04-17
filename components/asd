@@ -1,0 +1,26 @@
+<div className="max-w-[90%] mx-auto px-2 py-24 text-center ">
+  <p className="uppercase text-xl tracking-widest">Projects</p>
+  <h2 className="py-4">What I've built</h2>
+  <div className="grid md:grid-cols-2 gap-8">
+    <ProjectItem
+      title="Project One"
+      backgroundImg={Project1}
+      projectUrl="/property"
+    />
+    <ProjectItem
+      title="Project Two"
+      backgroundImg={Project2}
+      projectUrl="/property"
+    />
+    <ProjectItem
+      title="Project Three"
+      backgroundImg={Project3}
+      projectUrl="/property"
+    />
+    <ProjectItem
+      title="Project Four"
+      backgroundImg={Project4}
+      projectUrl="/property"
+    />
+  </div>
+</div>
