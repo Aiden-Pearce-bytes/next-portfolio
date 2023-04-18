@@ -9,13 +9,13 @@ const Main = () => {
       className="relative bg-[url('../public/assets/hero11.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-screen text-center"
     >
       <div className="w-full h-full bg-[#daf8e3] lg:bg-opacity-75">
-        <div className="max-w-[1248px] w-full h-full mx-auto p-2 flex justify-center items-center">
+        <div className="max-w-[90%] w-full h-full mx-auto p-2 flex justify-center items-center">
           <div>
-            <p className="uppercase text-xl tracking-widest text-[#005582]">
+            <p className="uppercase text-xl tracking-widest text-[#005582] pt-8">
               Crafting innovative code & exploring virtual worlds
             </p>
             <h1 className="py-4 text-[#005582]">
-              Hola, I'm <span className="text-[#1ACBAA]">Dinesh Kumar</span>
+              Hi, I'm <span className="text-[#1ACBAA]">Dinesh Kumar</span>
             </h1>
             {/* <h1 className="py-2 text-white">Full Stack Developer</h1> */}
             <p className="py-4 text-[#005582] max-w-[70%] m-auto">
@@ -27,16 +27,24 @@ const Main = () => {
             {/* HEADER CONTACT ICONS */}
             <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
               <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                <FaLinkedinIn size={24} />
+                <a href="https://www.linkedin.com/in/dineshkumar0597/">
+                  <FaLinkedinIn size={24} />
+                </a>
               </div>
               <div className="rounded-full shadow-lg  shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                <IoMail size={24} />
+                <a href="mailto:dineshkumarr0597@gmail.com">
+                  <IoMail size={24} />
+                </a>
               </div>
               <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                <IoLogoGithub size={24} />
+                <a href="https://github.com/Aiden-Pearce-bytes">
+                  <IoLogoGithub size={24} />
+                </a>
               </div>
               <div className="rounded-full shadow-lg shadow-[#06B2BB]  z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                <IoLogoWhatsapp size={24} />
+                <a href="https://wa.me/7904902105">
+                  <IoLogoWhatsapp size={24} />
+                </a>
               </div>
             </div>
           </div>

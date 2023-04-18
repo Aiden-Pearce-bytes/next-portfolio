@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../public/assets/hero17.jpg";
+import profilePic from "../public/assets/aboutpic.jpg";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,28 +11,25 @@ const About = () => {
     >
       <div className="bg-[#daf8e3] bg-opacity-75 h-full flex items-center justify-center">
         <div className="max-w-[90%] m-auto md:grid grid-cols-3 gap-8">
-          <div className="col-span-2 flex flex-col ">
+          <div className="col-span-2 flex flex-col py-24">
             <p className="uppercase text-4xl tracking-widest text-left">
               Virtual Identity
             </p>
-            <h2 className="py-4">My Travel Log</h2>
+            <h2 className="py-4">My Short Story</h2>
             <p className="py-2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa,
-              ut. Non illo asperiores id aliquam nobis quidem eaque quibusdam
-              possimus provident ab totam sunt iure ea quasi, eos repudiandae
-              exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing
-              elit. Fugit consectetur incidunt perferendis animi accusamus
-              aspernatur, nulla odio dicta eveniet dolores vero aperiam officia
-              laudantium expedita dolor? Voluptatum, praesentium quos. Soluta?
+              I'm a Full Stack Developer, with main area of expertise in the
+              Front-end of Websites and Web Applications trying to bring idea's
+              and designs to life through frameworks. Check out some of my work
+              in the Projects section. I'm Problem solver, well-organised,
+              person with high attention to detail.Interested in the entire
+              frontend spectrum and working on ambitious projects with
+              interesting people.
             </p>
             <p className="py-2">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Cupiditate, dolor. Quidem mollitia repellendus laboriosam, nisi
-              quos numquam, maxime eaque qui eum, officia incidunt ipsam sit et
-              facilis amet reiciendis voluptatibus. Lorem ipsum dolor sit amet,
-              consectetur adipisicing elit. Soluta nihil expedita maxime ipsum
-              impedit ducimus doloribus alias asperiores? Similique veniam,
-              aperiam fugiat qui officiis eum enim possimus nemo iure autem.
+              I'm open to Job opportunities where I can contribute, learn and
+              grow. If you have a good opportunity that matches my skills and
+              experience then don't hesitate to contact me. Fan of outdoor
+              activities, video games, and coding of course.
             </p>
             <Link href="/">
               <p className="py-2 underline cursor-pointer">Download CV</p>
@@ -43,7 +40,7 @@ const About = () => {
               className="rounded-xl  shadow-xl shadow-[#06B2BB]"
               src={profilePic}
               alt="/"
-              // width="350"
+              width="350"
               // height="500"
             />
           </div>
