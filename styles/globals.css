@@ -39,6 +39,6 @@ div {
     @apply text-2xl sm:text-5xl md:text-3xl;
   }
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651E5] to-[#709DFF] text-white;
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#F39FDC] to-[#9AB5E1] text-white;
   }
 }

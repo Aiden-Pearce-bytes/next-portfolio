@@ -27,13 +27,18 @@ const GeoTravel = () => {
           <p>Project</p>
           <h2>OverView</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam
-            velit molestias, odio, fugiat suscipit voluptatibus in incidunt
-            dolorem ad hic reprehenderit aliquid nostrum corporis aut, a unde?
-            Cum, perferendis nulla.
+            This is an Responsive Front-end website for a Travel Agency. The
+            Website has various section inclusing the Full Screen hero banner -
+            Contact form - Testimonials section etc. This was develped using
+            HTML & SASS for FrontEnd Designs and used Javascript for
+            validations.
           </p>
-          <button className="px-8 py-2 mt-4 mr-8">Demo</button>
-          <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          <a href="https://github.com/Aiden-Pearce-bytes/GeoTravel" target="_blank"> 
+            <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+          </a>
+          <a href="https://github.com/Aiden-Pearce-bytes/GeoTravel" target="_blank">
+            <button className="px-8 py-2 mt-4 mr-8">Code</button>
+          </a>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-[#06B2BB] rounded-xl p-4">
           <div className="p-2">

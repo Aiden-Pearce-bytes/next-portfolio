@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="relative bg-[url('../public/assets/hero17.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-auto lg:h-screen"
+      className="relative bg-[url('../public/assets/projectsbg.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-auto lg:h-screen"
     >
       <div className="bg-[#daf8e3] bg-opacity-75 h-full flex items-center justify-center">
         <div className="max-w-[90%] mx-auto px-2 py-24 text-center ">
@@ -25,7 +25,7 @@ const Projects = () => {
             <ProjectItem
               title="Netflix Clone"
               backgroundImg={Project2}
-              projectUrl="/NetFlixClone"
+              projectUrl="/NfClone"
               language="Next-Tailwind-MongoDB"
             />
           </div>

@@ -43,7 +43,7 @@ const Navbar = () => {
           : "fixed w-full h-20 z-[100]"
       }
     >
-      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
+      <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 py-2">
         <Link href="/">
           <Image
             src="/../public/assets/navLogo.png"
@@ -55,13 +55,19 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-xl uppercase hover:border-b py-2">Home</li>
+              <li className="ml-10 text-xl uppercase hover:border-b py-2">
+                Home
+              </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 text-xl uppercase hover:border-b py-2">About</li>
+              <li className="ml-10 text-xl uppercase hover:border-b py-2">
+                About
+              </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-xl uppercase hover:border-b py-2">Skills</li>
+              <li className="ml-10 text-xl uppercase hover:border-b py-2">
+                Skills
+              </li>
             </Link>
             <Link href="/#projects">
               <li className="ml-10 text-xl uppercase hover:border-b py-2">
@@ -73,11 +79,13 @@ const Navbar = () => {
                 Contact
               </li>
             </Link>
-            <Link href="/#contact">
+            {/* <Link> */}
+            <a href="/files/Dinesh_Kumar.pdf" target="_blank">
               <li className="ml-10 text-xl uppercase border py-2 px-2 border-[#fff]">
                 Resume
               </li>
-            </Link>
+            </a>
+            {/* </Link> */}
           </ul>
           <div onClick={handleNav} className="md:hidden cursor-pointer">
             <IoApps size={25} />
@@ -167,18 +175,26 @@ const Navbar = () => {
                 Let's Connect
               </p>
               <div className="flex items-center justify-between my-4 w-full sm-w[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <FaLinkedinIn />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <IoMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <IoLogoGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
-                  <IoLogoWhatsapp />
-                </div>
+                <a href="https://www.linkedin.com/in/dineshkumar0597">
+                  <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                    <FaLinkedinIn size={16} />
+                  </div>
+                </a>
+                <a href="mailto:dineshkumarr0597@gmail.com">
+                  <div className="rounded-full shadow-lg  shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                    <IoMail size={16} />
+                  </div>
+                </a>
+                <a href="https://github.com/Aiden-Pearce-bytes">
+                  <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                    <IoLogoGithub size={16} />
+                  </div>
+                </a>
+                <a href="https://wa.me/7904902105">
+                  <div className="rounded-full shadow-lg shadow-[#06B2BB]  z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                    <IoLogoWhatsapp size={16} />
+                  </div>
+                </a>
               </div>
             </div>
           </div>

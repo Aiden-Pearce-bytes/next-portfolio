@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import ContactImage from "../public/assets/hero4.jpg";
 import { FaLinkedinIn } from "react-icons/fa";
 import {
   IoChevronUpCircleOutline,
@@ -20,38 +19,52 @@ const Contact = () => {
       <div className="bg-[#daf8e3] bg-opacity-75 h-full flex items-center justify-center">
         <div className="max-w-[1248px] m-auto px-2 py-20 w-full">
           <h2 className="text-4xl tracking-widest text-center">Get in Touch</h2>
-          <p className=" flex py-4">
-            I would <IoHeartSharp className="text-red-500 px-1" /> to hear from
-            you!{" "}
-          </p>
+          <p className=" flex py-4"></p>
           <div className="lg:p-4 h-full">
             <div>
               <h2 className="py-2"> Dinesh Kumar</h2>
               <p>
-                Full Stack Developer, with main area of expertise in the
+                A Full Stack Developer, with main area of expertise in the
                 Front-end of Websites and Web Applications trying to bring
-                idea's and designs to life through frameworks
+                idea's and designs to life through frameworks.
               </p>
               <p className="py-4">
-                Got a design to work I am available for freelance(or)Full-time
-                position. Contact me and let's talk
+                I am currently exploring new career opportunities that challenge
+                me to utilize my skills and expand my knowledge.If you have a
+                position that fits my expertise, I would love to hear about it
+                (or) Got a design to work I am available for freelance. Contact
+                me and let's talk.
               </p>
             </div>
             <div>
-              <p className="uppercase pt-8 text-center">Connect with me</p>
+              <p className="uppercase pt-8 flex items-center justify-center">
+                I would <IoHeartSharp className="text-red-500 px-1" /> to hear
+                from you!
+              </p>
               <div className="flex items-center justify-evenly py-4 ">
-                <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                  <FaLinkedinIn size={16} />
-                </div>
-                <div className="rounded-full shadow-lg  shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                  <IoMail size={16} />
-                </div>
-                <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                  <IoLogoGithub size={16} />
-                </div>
-                <div className="rounded-full shadow-lg shadow-[#06B2BB]  z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                  <IoLogoWhatsapp size={16} />
-                </div>
+                <a
+                  href="https://www.linkedin.com/in/dineshkumar0597"
+                  target="_blank"
+                >
+                  <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                    <FaLinkedinIn size={24} />
+                  </div>
+                </a>
+                <a href="mailto:dineshkumarr0597@gmail.com">
+                  <div className="rounded-full shadow-lg  shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                    <IoMail size={24} />
+                  </div>
+                </a>
+                <a href="https://github.com/Aiden-Pearce-bytes" target="_blank">
+                  <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                    <IoLogoGithub size={24} />
+                  </div>
+                </a>
+                <a href="https://wa.me/7904902105">
+                  <div className="rounded-full shadow-lg shadow-[#06B2BB]  z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                    <IoLogoWhatsapp size={24} />
+                  </div>
+                </a>
               </div>
             </div>
           </div>

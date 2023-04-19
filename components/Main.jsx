@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <div
       id="home"
-      className="relative bg-[url('../public/assets/hero11.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-screen text-center"
+      className="relative bg-[url('../public/assets/hero.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-screen text-center"
     >
       <div className="w-full h-full bg-[#daf8e3] lg:bg-opacity-75">
         <div className="max-w-[90%] w-full h-full mx-auto p-2 flex justify-center items-center">
@@ -26,26 +26,29 @@ const Main = () => {
             </p>
             {/* HEADER CONTACT ICONS */}
             <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-              <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                <a href="https://www.linkedin.com/in/dineshkumar0597/">
+              <a
+                href="https://www.linkedin.com/in/dineshkumar059"
+                target="_blank"
+              >
+                <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
                   <FaLinkedinIn size={24} />
-                </a>
-              </div>
-              <div className="rounded-full shadow-lg  shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                <a href="mailto:dineshkumarr0597@gmail.com">
+                </div>
+              </a>
+              <a href="mailto:dineshkumarr0597@gmail.com">
+                <div className="rounded-full shadow-lg  shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
                   <IoMail size={24} />
-                </a>
-              </div>
-              <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                <a href="https://github.com/Aiden-Pearce-bytes">
+                </div>
+              </a>
+              <a href="https://github.com/Aiden-Pearce-bytes" target="_blank">
+                <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
                   <IoLogoGithub size={24} />
-                </a>
-              </div>
-              <div className="rounded-full shadow-lg shadow-[#06B2BB]  z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
-                <a href="https://wa.me/7904902105">
+                </div>
+              </a>
+              <a href="https://wa.me/7904902105">
+                <div className="rounded-full shadow-lg shadow-[#06B2BB]  z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
                   <IoLogoWhatsapp size={24} />
-                </a>
-              </div>
+                </div>
+              </a>
             </div>
           </div>
         </div>
