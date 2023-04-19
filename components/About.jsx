@@ -30,7 +30,7 @@ const About = () => {
                   Projects
                 </Link>
               </mark>
-              section. I'm a detail-oriented problem solver with excellent
+              section. I&apos;m a detail-oriented problem solver with excellent
               organizational skills. I am always staying up-to-date with the
               latest technologies and eager to collaborate with like-minded
               individuals on exciting, challenging projects across the entire
@@ -49,7 +49,7 @@ const About = () => {
               </mark>
               and expand my knowledge.I thrive in a dynamic environment where I
               can learn and grow.If you have a position that fits my expertise,
-              I would love to hear about it.When I'm not busy coding, I enjoy
+              I would love to hear about it.When I&apos;m not busy coding, I enjoy
               spending time outdoors or diving into my favorite video games.
             </p>
             <Link href="/files/Dinesh_Kumar.pdf" target="_blank">

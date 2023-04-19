@@ -26,14 +26,14 @@ const Contact = () => {
               <p>
                 A Full Stack Developer, with main area of expertise in the
                 Front-end of Websites and Web Applications trying to bring
-                idea's and designs to life through frameworks.
+                idea&apos;s and designs to life through frameworks.
               </p>
               <p className="py-4">
                 I am currently exploring new career opportunities that challenge
                 me to utilize my skills and expand my knowledge.If you have a
                 position that fits my expertise, I would love to hear about it
                 (or) Got a design to work I am available for freelance. Contact
-                me and let's talk.
+                me and let&apos;s talk.
               </p>
             </div>
             <div>
