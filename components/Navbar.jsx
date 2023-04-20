@@ -80,7 +80,7 @@ const Navbar = () => {
               </li>
             </Link>
             {/* <Link> */}
-            <a href="/files/Dinesh_Kumar.pdf" target="_blank">
+            <a href="/files/DineshKumar.pdf" target="_blank">
               <li className="ml-10 text-xl uppercase border py-2 px-2 border-[#fff]">
                 Resume
               </li>
