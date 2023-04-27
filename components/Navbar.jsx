@@ -15,6 +15,7 @@ import {
 import { BsLightbulb } from "react-icons/bs";
 import { GrDeploy } from "react-icons/gr";
 import { FaLinkedinIn } from "react-icons/fa";
+import Logo from '../public/assets/navLogo.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -46,7 +47,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16 py-2">
         <Link href="/">
           <Image
-            src={"/../public/assets/navLogo.png"}
+            src={Logo}
             alt="/"
             width="50"
             height="50"
