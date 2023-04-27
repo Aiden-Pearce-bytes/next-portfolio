@@ -18,7 +18,7 @@ const Skills = () => {
       id="skills"
       className="relative bg-[url('../public/assets/skillsbg.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-auto lg:h-screen"
     >
-      <div className="bg-[#daf8e3] bg-opacity-75 h-full flex items-center justify-center">
+      <div className="bg-[#daf8e3] bg-opacity-75 h-full flex items-center justify-center py-8">
         <div className="max-w-[90%] mx-auto flex flex-col justify-center items-center h-full">
           <p className="text-5xl uppercase tracking-widest pt-24">Skill TREE</p>
           <h2 className="py-2 uppercase">My Stats in Programming</h2>

@@ -8,7 +8,7 @@ const Main = () => {
       id="home"
       className="relative bg-[url('../public/assets/hero.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-screen text-center"
     >
-      <div className="w-full h-full bg-[#daf8e3] lg:bg-opacity-75">
+      <div className="w-full h-full bg-[#daf8e3] bg-opacity-75">
         <div className="max-w-[90%] w-full h-full mx-auto p-2 flex justify-center items-center">
           <div>
             <p className="uppercase text-xl tracking-widest text-[#005582] pt-8">

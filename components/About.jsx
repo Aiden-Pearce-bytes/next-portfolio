@@ -9,7 +9,7 @@ const About = () => {
       id="about"
       className="relative bg-[url('../public/assets/aboutbg.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-auto lg:h-screen"
     >
-      <div className="bg-[#daf8e3] bg-opacity-75 h-full flex items-center justify-center">
+      <div className="bg-[#daf8e3] bg-opacity-75 h-full flex items-center justify-center py-8">
         <div className="max-w-[90%] m-auto md:grid grid-cols-3 gap-8">
           <div className="col-span-2 flex flex-col py-24">
             <p className="uppercase text-4xl tracking-widest text-left">
