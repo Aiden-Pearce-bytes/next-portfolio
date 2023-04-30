@@ -2,63 +2,73 @@ import React from "react";
 import profilePic from "../public/assets/aboutpic.jpg";
 import Image from "next/image";
 import Link from "next/link";
+import { RoughNotation } from "react-rough-notation";
 
 const About = () => {
   return (
-    <div
-      id="about"
-      className="relative bg-[url('../public/assets/aboutbg.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-auto lg:h-screen"
-    >
-      <div className="bg-[#daf8e3] bg-opacity-75 h-full flex items-center justify-center py-8">
+    <div id="#/" className="w-full h-auto lg:h-screen">
+      <div className="h-full flex items-center justify-center py-8">
         <div className="max-w-[90%] m-auto md:grid grid-cols-3 gap-8">
           <div className="col-span-2 flex flex-col py-24">
-            <p className="uppercase text-4xl tracking-widest text-left">
-              Virtual Identity
+            <h1 className="text-8xl tracking-widest text-left">Hello!</h1>
+            <h2 className="py-4">
+              I&apos;m Dinesh Kumar, a Full Stack developer
+            </h2>
+            <p className="py-2 text-4xl font-light antialiased first-letter:text-6xl text-justify">
+              Well-versed in leveraging frameworks to create interactive designs
+              that are both beautiful and functional. My passion for
+              <span className="p-4">
+                <RoughNotation type="highlight" color="#C9D6FF" show>
+                  Frontend
+                </RoughNotation>
+              </span>
+              development allows me to breathe life into design concepts with
+              ease. Take a look at some of my work in the
+              <span className="px-2">
+                <RoughNotation type="highlight" color="#C9D6FF" show>
+                  <Link
+                    href="/#projects"
+                    className="font-light antialiased text-[#1E293B]"
+                  >
+                    projects
+                  </Link>
+                </RoughNotation>
+              </span>
+              section. I am always trying to stay up-to-date with the latest
+              technologies and eager to collaborate with like-minded individuals
+              on exciting, challenging projects across the entire frontend
+              spectrum.
             </p>
-            <h2 className="py-4">My Journey So far</h2>
-            <p className="py-2 text-4xl">
-              My passion for Front-end development allows me to breathe life
-              into design concepts with ease. As a Full Stack Developer, I am
-              well-versed in leveraging frameworks to create interactive designs
-              that are both beautiful and functional. Take a look at some of my
-              work in the
-              <mark className="bg-sky-400">
-                <Link
-                  href="/#projects"
-                  className="underline font-semibold text-[#1E293B]"
-                >
-                  Projects
-                </Link>
-              </mark>
-              section. I&apos;m a detail-oriented problem solver with excellent
-              organizational skills. I am always staying up-to-date with the
-              latest technologies and eager to collaborate with like-minded
-              individuals on exciting, challenging projects across the entire
-              frontend spectrum.
-            </p>
-            <p className="py-2 text-4xl">
-              I am currently exploring new career opportunities that challenge
-              me to utilize
-              <mark className="bg-sky-400">
-                <Link
-                  href="/#skills"
-                  className="underline font-semibold text-[#1E293B]"
-                >
-                  My Skills
-                </Link>
-              </mark>
-              and expand my knowledge.I thrive in a dynamic environment where I
-              can learn and grow.If you have a position that fits my expertise,
-              I would love to hear about it.When I&apos;m not busy coding, I enjoy
-              spending time outdoors or diving into my favorite video games.
+            <p className="py-2 text-4xl font-light antialiased first-letter:text-5xl text-justify">
+              Currently exploring new career opportunities as
+              <span className="px-2">
+                <RoughNotation type="highlight" color="#C9D6FF" show>
+                  developer
+                </RoughNotation>
+              </span>
+              that challenge me to utilize my
+              <span className="px-2">
+                <RoughNotation type="highlight" color="#C9D6FF" show>
+                  <Link
+                    href="/#skills"
+                    className="font-light antialiased text-[#1E293B]"
+                  >
+                    skills
+                  </Link>
+                </RoughNotation>
+              </span>
+              and expand my knowledge.If you have an opportunity that fits my
+              expertise (or) an idea you&apos;d like to discuss, I would love to
+              hear about it.When I&apos;m not busy coding, I enjoy spending time
+              outdoors or diving into my favorite video games.
             </p>
             <Link href="/files/Dinesh_Kumar.pdf" target="_blank">
               <button className="px-8 py-2 mt-4 mr-8">Download CV</button>
             </Link>
           </div>
-          <div className="w-full h-auto m-auto justify-center items-center grayscale hover:grayscale-0 hover:scale-110 ease-in duration-300">
+          <div className="w-full h-auto m-auto flex justify-center items-center grayscale hover:grayscale-0 hover:scale-110 ease-in duration-300">
             <Image
-              className="rounded-xl  shadow-xl shadow-[#06B2BB]"
+              className="rounded-xl border-8 p-4 border-sky-600 shadow-xl shadow-gray-400"
               src={profilePic}
               alt="/"
               width="350"

@@ -1,11 +1,10 @@
-import About from '@/components/About'
-import Contact from '@/components/Contact'
-import Main from '@/components/Main'
-import Projects from '@/components/Projects'
-import Skills from '@/components/Skills'
-import Head from 'next/head'
-import Image from 'next/image'
+import About from "@/components/About";
+import Contact from "@/components/Contact";
 
+import Projects from "@/components/Projects";
+import Skills from "@/components/Skills";
+import Head from "next/head";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -13,11 +12,11 @@ export default function Home() {
       <Head>
         <title>Dk | Personal Portfolio</title>
       </Head>
-      <Main />
+
       <About />
       <Skills />
       <Projects />
-      <Contact/>
+      <Contact />
     </div>
-  )
+  );
 }

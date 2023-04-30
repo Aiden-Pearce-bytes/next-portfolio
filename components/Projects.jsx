@@ -7,13 +7,10 @@ import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
   return (
-    <div
-      id="projects"
-      className="relative bg-[url('../public/assets/projectsbg.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-auto lg:h-screen"
-    >
-      <div className="bg-[#daf8e3] bg-opacity-75 h-full flex items-center justify-center">
-        <div className="max-w-[90%] mx-auto px-2 py-24 text-center ">
-          <p className="uppercase text-3xl tracking-widest">Projects</p>
+    <div id="projects" className="w-full h-auto lg:h-screen">
+      <div className="h-full flex items-center justify-center">
+        <div className="max-w-[90%] mx-auto px-2 py-10 text-center ">
+          <p className="uppercase text-5xl tracking-widest">Projects</p>
           <h2 className="py-4">Few Projects I developed while learning</h2>
           <div className="grid md:grid-cols-2 gap-8">
             <ProjectItem

@@ -24,9 +24,9 @@ const NfClone = () => {
 
       <div className="max-w-[90%] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
         <div className="col-span-4">
-          <p>Project</p>
-          <h2>OverView</h2>
-          <p>
+          
+          <h2 className="py-4">Project OverView</h2>
+          <p className="font-light text-4xl text-justify">
             This is an fully functional Netfilx Clone where user can able to
             Signup - Login - Watch videos. React & Next 13 are used for
             Front-End development along with Tailwind CSS for styling and
@@ -46,7 +46,7 @@ const NfClone = () => {
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-[#06B2BB] rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
-            <div className="grid grid-cols-3 md:grid-cols-1">
+            <div className="grid grid-cols-3 md:grid-cols-1 font-light">
               <p className="py-2 flex items-center">
                 <IoMdRadioButtonOn className="pr-1" /> Next 13
               </p>

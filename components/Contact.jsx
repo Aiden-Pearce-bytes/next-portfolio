@@ -9,59 +9,67 @@ import {
   IoMail,
 } from "react-icons/io5";
 import Link from "next/link";
+import { RoughNotation } from "react-rough-notation";
 
 const Contact = () => {
   return (
-    <div
-      id="contact"
-      className="relative bg-[url('../public/assets/contactbg.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-auto lg:h-screen"
-    >
-      <div className="bg-[#daf8e3] bg-opacity-75 h-full flex items-center justify-center">
+    <div id="contact" className="w-full h-auto lg:h-screen">
+      <div className="h-full flex items-center justify-center">
         <div className="max-w-[1248px] m-auto px-2 py-20 w-full">
-          <h2 className="text-4xl tracking-widest text-center">Get in Touch</h2>
+          <h2 className="text-4xl tracking-widest text-center pt-10">
+            Get in Touch
+          </h2>
           <p className=" flex py-4"></p>
           <div className="lg:p-4 h-full">
             <div>
-              <h2 className="py-2"> Dinesh Kumar</h2>
-              <p>
-                A Full Stack Developer, with main area of expertise in the
-                Front-end of Websites and Web Applications trying to bring
-                idea&apos;s and designs to life through frameworks.
-              </p>
-              <p className="py-4">
-                I am currently exploring new career opportunities that challenge
-                me to utilize my skills and expand my knowledge.If you have a
-                position that fits my expertise, I would love to hear about it
-                (or) Got a design to work I am available for freelance. Contact
-                me and let&apos;s talk.
+              <p className="font-regular text-3xl md:text-5xl text-justify">
+                I'm currenly looking for a job role as Developer. Do you have a
+                job opportunity ?
+                <span className="inline-block px-2">
+                  <RoughNotation type="circle" show color="#1ACBAA">
+                    Hire Me
+                  </RoughNotation>
+                </span>
+                <br />
+                Got an idea you'd like to discuss, Feel free to reach me @
+                <span className="px-2 ont-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-sky-400 to-purple-600">
+                  dineshkumarr0597@gmail.com
+                </span>
+                <br />
+                You can also find me by clicking any of the buttons below and I
+                would{" "}
+                <IoHeartSharp className="text-red-500 px-1 inline-block" /> to
+                hear from you!
               </p>
             </div>
             <div>
-              <p className="uppercase pt-8 flex items-center justify-center">
-                I would <IoHeartSharp className="text-red-500 px-1" /> to hear
-                from you!
-              </p>
-              <div className="flex items-center justify-evenly py-4 ">
+              <p className="uppercase pt-8 flex items-center justify-center"></p>
+              <div className="flex items-center justify-center py-4 ">
                 <a
+                  className="px-4"
                   href="https://www.linkedin.com/in/dineshkumar0597"
                   target="_blank"
                 >
-                  <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                  <div className="rounded-full shadow-lg shadow-gray-400 z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
                     <FaLinkedinIn size={24} />
                   </div>
                 </a>
-                <a href="mailto:dineshkumarr0597@gmail.com">
-                  <div className="rounded-full shadow-lg  shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                <a className="px-4" href="mailto:dineshkumarr0597@gmail.com">
+                  <div className="rounded-full shadow-lg  shadow-gray-400 z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
                     <IoMail size={24} />
                   </div>
                 </a>
-                <a href="https://github.com/Aiden-Pearce-bytes" target="_blank">
-                  <div className="rounded-full shadow-lg shadow-[#06B2BB] z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                <a
+                  className="px-4"
+                  href="https://github.com/Aiden-Pearce-bytes"
+                  target="_blank"
+                >
+                  <div className="rounded-full shadow-lg shadow-gray-400 z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
                     <IoLogoGithub size={24} />
                   </div>
                 </a>
-                <a href="https://wa.me/7904902105">
-                  <div className="rounded-full shadow-lg shadow-[#06B2BB]  z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
+                <a href="https://wa.me/7904902105" className="px-4">
+                  <div className="rounded-full shadow-lg shadow-gray-400  z-[10] p-4 cursor-pointer hover:scale-110 ease-in duration-500">
                     <IoLogoWhatsapp size={24} />
                   </div>
                 </a>

@@ -9,9 +9,10 @@ div {
 
 @layer base {
   body {
-    @apply bg-[#ECF0F3] text-[#005582] tracking-widest;
-    font-family: "Outfit", "sans-serif";
-    /* font-family: 'Dongle', sans-serif; */
+    @apply bg-white text-gray-800 tracking-widest;
+    /* font-family: "Nunito", sans-serif; */
+    font-family: "Josefin Sans", sans-serif;
+    
   }
 
   h1,
@@ -20,25 +21,28 @@ div {
   h4,
   h5,
   h6 {
-    @apply font-bold;
+    @apply font-semibold;
   }
 
   h1 {
     @apply text-4xl sm:text-5xl md:text-6xl;
+    font-family: "Josefin Sans", sans-serif;
   }
   h2 {
     @apply text-3xl sm:text-4xl;
+    font-family: "Josefin Sans", sans-serif;
   }
 
   li {
     @apply cursor-pointer;
-    font-family: "Outfit", "sans-serif";
+    /* font-family: "Outfit", "sans-serif"; */
   }
   p {
+    
     font-family: "Dongle", sans-serif;
     @apply text-2xl sm:text-5xl md:text-3xl;
   }
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#009FFD] to-[#2A2A72] text-white;
+    @apply shadow-xl shadow-gray-300 rounded-xl uppercase bg-gradient-to-r from-sky-400 to-purple-400 text-white font-semibold;
   }
 }

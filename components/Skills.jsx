@@ -16,15 +16,15 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="relative bg-[url('../public/assets/skillsbg.jpg')] bg-no-repeat bg-center bg-fixed bg-cover w-full h-auto lg:h-screen"
+      className="w-full h-auto lg:h-screen py-8"
     >
-      <div className="bg-[#daf8e3] bg-opacity-75 h-full flex items-center justify-center py-8">
+      <div className="h-full flex items-center justify-center py-4">
         <div className="max-w-[90%] mx-auto flex flex-col justify-center items-center h-full">
-          <p className="text-5xl uppercase tracking-widest pt-24">Skill TREE</p>
+          <p className="text-5xl uppercase tracking-widest pt-2">Skill TREE</p>
           <h2 className="py-2 uppercase">My Stats in Programming</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* HTML */}
-            <div className="p-6 shadow-xl shadow-[#06B2BB] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <IoLogoHtml5 size={64} className="hover:text-[#E34C26]" />
@@ -45,7 +45,7 @@ const Skills = () => {
               </div>
             </div>
             {/* CSS */}
-            <div className="p-6 shadow-xl shadow-[#06B2BB] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <IoLogoCss3 size={64} className="hover:text-[#263DE4]" />
@@ -67,7 +67,7 @@ const Skills = () => {
             </div>
 
             {/* JAVASCRIPT */}
-            <div className="p-6 shadow-xl shadow-[#06B2BB] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <IoLogoJavascript
@@ -90,7 +90,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="p-6 shadow-xl shadow-[#06B2BB] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <IoLogoReact size={64} className="hover:text-[#61DBFB]" />
@@ -110,7 +110,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="p-6 shadow-xl shadow-[#06B2BB] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <SiTailwindcss size={64} className="hover:text-sky-500" />
@@ -130,7 +130,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="p-6 shadow-xl shadow-[#06B2BB] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <IoLogoGithub size={64} className="hover:text-[#333]" />
@@ -150,7 +150,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="p-6 shadow-xl shadow-[#06B2BB] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <IoLogoSass size={64} className="hover:text-[#CD6799]" />
@@ -170,7 +170,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="p-6 shadow-xl shadow-[#06B2BB] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <SiRedux size={64} className="hover:text-[#00a7E5]" />
@@ -188,7 +188,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <div className="p-6 shadow-xl shadow-[#06B2BB] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <SiNextdotjs size={64} className="hover:text-black" />
@@ -209,7 +209,7 @@ const Skills = () => {
               </div>
             </div>
 
-            <div className="p-6 shadow-xl shadow-[#06B2BB] rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="p-6 shadow-xl shadow-gray-400 rounded-xl hover:scale-105 ease-in duration-300">
               <div className="grid grid-cols-2 gap-4 justify-center items-center">
                 <div className="m-auto">
                   <IoLogoReact size={64} className="hover:text-[#61DBFB]" />

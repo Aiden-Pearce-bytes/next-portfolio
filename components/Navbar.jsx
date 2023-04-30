@@ -40,7 +40,7 @@ const Navbar = () => {
     <div
       className={
         shadow
-          ? "fixed w-full h-20 shadow-xl z-[100]"
+          ? "fixed w-full h-20 shadow-xl z-[100] bg-gray-100"
           : "fixed w-full h-20 z-[100]"
       }
     >
@@ -51,33 +51,28 @@ const Navbar = () => {
         <div>
           <ul className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 text-xl uppercase hover:border-b py-2">
+              <li className="ml-10 text-xl uppercase hover:border-b border-sky-400 py-2">
                 Home
               </li>
             </Link>
-            <Link href="/#about">
-              <li className="ml-10 text-xl uppercase hover:border-b py-2">
-                About
-              </li>
-            </Link>
             <Link href="/#skills">
-              <li className="ml-10 text-xl uppercase hover:border-b py-2">
+              <li className="ml-10 text-xl uppercase hover:border-b border-sky-400 py-2">
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 text-xl uppercase hover:border-b py-2">
+              <li className="ml-10 text-xl uppercase hover:border-b border-sky-400 py-2">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 text-xl uppercase hover:border-b py-2">
+              <li className="ml-10 text-xl uppercase hover:border-b border-sky-400 py-2">
                 Contact
               </li>
             </Link>
             {/* <Link> */}
             <a href="/files/DineshKumar.pdf" target="_blank">
-              <li className="ml-10 text-xl uppercase border py-2 px-2 border-[#fff]">
+              <li className="ml-10 text-xl uppercase border py-2 px-2 border-sky-400">
                 Resume
               </li>
             </a>
@@ -118,7 +113,7 @@ const Navbar = () => {
                 Writing Codes() & conquering virtual worlds
               </p>
             </div>
-            <div className="flex items-center justify-evenly my-4 w-full sm-w[80%]">
+            <div className="flex items-center justify-evenly my-4 w-full sm-w[80%] h-full">
               <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-500">
                 <BsLightbulb />
               </div>
@@ -138,11 +133,6 @@ const Navbar = () => {
               <Link href="/">
                 <li onClick={() => setNav(false)} className="py-4 text-md">
                   Home
-                </li>
-              </Link>
-              <Link href="/#about">
-                <li onClick={() => setNav(false)} className="py-4 text-md">
-                  About
                 </li>
               </Link>
               <Link href="/#skills">
