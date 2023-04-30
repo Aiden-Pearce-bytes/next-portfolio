@@ -18,14 +18,14 @@ const About = () => {
               Well-versed in leveraging frameworks to create interactive designs
               that are both beautiful and functional. My passion for
               <span className="p-4">
-                <RoughNotation type="highlight" color="#C9D6FF" show>
+                <RoughNotation type="highlight" color="#7CFFCB" show>
                   Frontend
                 </RoughNotation>
               </span>
               development allows me to breathe life into design concepts with
               ease. Take a look at some of my work in the
               <span className="px-2">
-                <RoughNotation type="highlight" color="#C9D6FF" show>
+                <RoughNotation type="highlight" color="#FA9E8C" show>
                   <Link
                     href="/#projects"
                     className="font-light antialiased text-[#1E293B]"
@@ -42,13 +42,13 @@ const About = () => {
             <p className="py-2 text-4xl font-light antialiased first-letter:text-5xl text-justify">
               Currently exploring new career opportunities as
               <span className="px-2">
-                <RoughNotation type="highlight" color="#C9D6FF" show>
+                <RoughNotation type="highlight" color="#FFAC81" show>
                   developer
                 </RoughNotation>
               </span>
               that challenge me to utilize my
               <span className="px-2">
-                <RoughNotation type="highlight" color="#C9D6FF" show>
+                <RoughNotation type="highlight" color="#BDFFF3" show>
                   <Link
                     href="/#skills"
                     className="font-light antialiased text-[#1E293B]"

@@ -16,28 +16,30 @@ const Contact = () => {
     <div id="contact" className="w-full h-auto lg:h-screen">
       <div className="h-full flex items-center justify-center">
         <div className="max-w-[1248px] m-auto px-2 py-20 w-full">
-          <h2 className="text-4xl tracking-widest text-center pt-10">
-            Get in Touch
-          </h2>
+          <h2 className=" tracking-widest text-center pt-10">Get in Touch</h2>
           <p className=" flex py-4"></p>
           <div className="lg:p-4 h-full">
             <div>
-              <p className="font-regular text-3xl md:text-5xl text-justify">
-                I&apos;m currenly looking for a job role as Developer. Do you have a
-                job opportunity ?
+              <p className="font-regular text-justify md:text-center font-3xl">
+                I&apos;m currenly looking for a job role as Developer. Do you
+                have a job opportunity ?
                 <span className="inline-block px-2">
                   <RoughNotation type="circle" show color="#1ACBAA">
                     Hire Me
                   </RoughNotation>
                 </span>
-                <br />
+              </p>
+              <br />
+              <p className="font-regular text-justify md:text-center font-3xl py-4"> 
                 Got an idea you&apos;d like to discuss, Feel free to reach me @
-                <span className="px-2 ont-extrabold text-transparent text-4xl bg-clip-text bg-gradient-to-r from-sky-400 to-purple-600">
+                <span className="px-2 ont-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-purple-600">
                   dineshkumarr0597@gmail.com
                 </span>
                 <br />
+              </p>
+              <p className="font-regular text-justify md:text-center font-3xl py-4">
                 You can also find me by clicking any of the buttons below and I
-                would{" "}
+                would
                 <IoHeartSharp className="text-red-500 px-1 inline-block" /> to
                 hear from you!
               </p>

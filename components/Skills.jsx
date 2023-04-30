@@ -18,9 +18,9 @@ const Skills = () => {
       id="skills"
       className="w-full h-auto lg:h-screen py-8"
     >
-      <div className="h-full flex items-center justify-center py-4">
+      <div className="h-full flex items-center justify-center py-8">
         <div className="max-w-[90%] mx-auto flex flex-col justify-center items-center h-full">
-          <p className="text-5xl uppercase tracking-widest pt-2">Skill TREE</p>
+          <p className="text-5xl uppercase tracking-widest pt-4">Skill TREE</p>
           <h2 className="py-2 uppercase">My Stats in Programming</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* HTML */}
