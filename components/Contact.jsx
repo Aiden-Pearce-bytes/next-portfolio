@@ -20,7 +20,7 @@ const Contact = () => {
           <p className=" flex py-4"></p>
           <div className="lg:p-4 h-full">
             <div>
-              <p className="font-regular text-justify md:text-center font-3xl">
+              <p className="font-regular text-justify md:text-center">
                 I&apos;m currenly looking for a job role as Developer. Do you
                 have a job opportunity ?
                 <span className="inline-block px-2">
@@ -30,14 +30,14 @@ const Contact = () => {
                 </span>
               </p>
               <br />
-              <p className="font-regular text-justify md:text-center font-3xl py-4"> 
+              <p className="font-regular text-justify md:text-center py-4"> 
                 Got an idea you&apos;d like to discuss, Feel free to reach me @
                 <span className="px-2 ont-extrabold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-purple-600">
                   dineshkumarr0597@gmail.com
                 </span>
                 <br />
               </p>
-              <p className="font-regular text-justify md:text-center font-3xl py-4">
+              <p className="font-regular text-justify md:text-center py-4">
                 You can also find me by clicking any of the buttons below and I
                 would
                 <IoHeartSharp className="text-red-500 px-1 inline-block" /> to
