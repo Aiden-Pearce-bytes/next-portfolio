@@ -22,7 +22,7 @@ const Contact = () => {
             <div>
               <p className="font-regular text-justify md:text-center">
                 I&apos;m currenly looking for a job role as Developer. Do you
-                have a job opportunity ?
+                have a job opportunity?
                 <span className="inline-block px-2">
                   <RoughNotation type="circle" show color="#1ACBAA">
                     Hire Me
