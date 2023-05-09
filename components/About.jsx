@@ -62,9 +62,10 @@ const About = () => {
               hear about it.When I&apos;m not busy coding, I enjoy spending time
               outdoors or diving into my favorite video games.
             </p>
-            <Link href="/files/Dinesh_Kumar.pdf" target="_blank">
+
+            <a href="/files/DineshKumar.pdf" target="_blank">
               <button className="px-8 py-2 mt-4 mr-8">Download CV</button>
-            </Link>
+            </a>
           </div>
           <div className="w-full h-auto m-auto flex justify-center items-center grayscale hover:grayscale-0 hover:scale-110 ease-in duration-300">
             <Image
